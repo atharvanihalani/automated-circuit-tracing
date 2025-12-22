@@ -1,0 +1,37 @@
+# Environment variables and secrets
+.env
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Large graph files (comment out if you want to push them)
+*.pt
+graphs/
+graph_files/
+
+# CSV outputs (comment out if you want to push them)
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
